@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/test', methods=['GET'])
 def getResult():
-    input = np.array([[5.5, 2.4, 2.7, 1.]])
+    input = np.array([0.9533,0.9545,0.9557,1.6, 1.]])
     result = model.predict(input)
     return jsonify({'result111':s1tr(result)})
 
