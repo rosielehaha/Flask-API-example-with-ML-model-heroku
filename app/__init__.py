@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-import app.model_my as model
+import app.model as model
 import numpy as np
 
 from flask import Flask, request, jsonify
