@@ -26,4 +26,4 @@ def postInput():
     # 進行預測
     result = model.predict(input)
 
-    return jsonify({'result': str(result)})
+    return jsonify({'result222': str(result)})
